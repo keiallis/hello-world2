@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import './App.css';
+import NameList from './components/NameList';
+// import UserGreeting from './components/UserGreeting';
 // import EventBind from './components/EventBind';
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
@@ -7,7 +9,7 @@ import './App.css';
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
+// import EventBind from './components/EventBind';
 // import ParentComponent from './components/ParentComponent';
 
 
@@ -17,9 +19,10 @@ class App extends Component{
     render() {
       return (
         <div className= "App">
-          
+          <NameList />
+          {/* <UserGreeting/> */}
           {/* <ParentComponent /> */}
-          <EventBind />
+          {/* <EventBind /> */}
           {/* <FunctionClick />  */}
           
           {/* <ClassClick /> */}
