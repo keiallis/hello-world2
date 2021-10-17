@@ -1,13 +1,13 @@
 import { Component } from 'react';
 import './App.css';
 // import EventBind from './components/EventBind';
-import Greet from './components/Greet';
-import Welcome from './components/Welcome';
+// import Greet from './components/Greet';
+// import Welcome from './components/Welcome';
 // import Message from './components/Message'; 
 // import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
+// import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
-// import EventBind from './components/EventBind';
+import EventBind from './components/EventBind';
 // import ParentComponent from './components/ParentComponent';
 
 
@@ -19,10 +19,10 @@ class App extends Component{
         <div className= "App">
           
           {/* <ParentComponent /> */}
-          {/* <EventBind /> */}
-          <FunctionClick /> 
-          {/* 
-          <ClassClick /> */}
+          <EventBind />
+          {/* <FunctionClick />  */}
+          
+          {/* <ClassClick /> */}
           {/* <Counter /> */}
           {/* <Message /> */}
           {/* <Greet name= "Bruce" heroName= "Batman">
